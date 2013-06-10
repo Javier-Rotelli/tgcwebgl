@@ -1,0 +1,29 @@
+<tgcScene>
+	<name>Box</name>
+	<texturesExport enabled='true' dir='Textures'/>
+	<lightmapExport enabled='false' dir='LightMaps'/>
+	<sceneBoundingBox min='[-17.2478,0,-19.652]' max='[25.2214,39.7807,22.4133]'/>
+	<materials count='1'>
+		<m name='Material #25' type='Standardmaterial'>
+			<ambient>[149.94,149.94,149.94,255.0]</ambient>
+			<diffuse>[149.94,149.94,149.94,255.0]</diffuse>
+			<specular>[229.5,229.5,229.5,255.0]</specular>
+			<opacity>100.0</opacity>
+			<alphaBlendEnable>false</alphaBlendEnable>
+			<bitmap uvTiling='[1.0,1.0]' uvOffset='[0.0,0.0]'>cajaMadera1.jpg</bitmap>
+		</m>
+	</materials>
+	<meshes count='1' >
+		<mesh name='Box' layer='0' type='Original' matId='0' color='[196.0,88.0,225.0]' visibility='1.0' lightmap=''>
+			<boundingBox min='[-17.2478,0,-19.652]' max='[25.2214,39.7807,22.4133]'/>
+			<coordinatesIdx count='36'>0 2 3 3 1 0 4 5 7 7 6 4 0 1 5 5 4 0 1 3 7 7 5 1 3 2 6 6 7 3 2 0 4 4 6 2 </coordinatesIdx>
+			<textCoordsIdx count='36'>9 11 10 10 8 9 8 9 11 11 10 8 4 5 7 7 6 4 0 1 3 3 2 0 4 5 7 7 6 4 0 1 3 3 2 0 </textCoordsIdx>
+			<colorsIdx count='36'>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colorsIdx>
+			<matIds count='1'>0</matIds>
+			<vertices count='24'>-17.2478 0.0 -19.652 25.2214 0.0 -19.652 -17.2478 0.0 22.4133 25.2214 0.0 22.4133 -17.2478 39.7807 -19.652 25.2214 39.7807 -19.652 -17.2478 39.7807 22.4133 25.2214 39.7807 22.4133 </vertices>
+			<normals count='108'>0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 </normals>
+			<texCoords count='24'>0.0 1.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 1.0 1.0 0.0 0.0 1.0 0.0 </texCoords>
+			<colors count='3'>255 255 255 </colors>
+		</mesh>
+	</meshes>
+</tgcScene>

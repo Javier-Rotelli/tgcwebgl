@@ -1,0 +1,29 @@
+<tgcScene>
+	<name>Triangle</name>
+	<texturesExport enabled='true' dir='Textures'/>
+	<lightmapExport enabled='false' dir='LightMaps'/>
+	<sceneBoundingBox min='[-19.5918,-28.2586,-4.36133]' max='[32.5135,28.2586,6.55185]'/>
+	<materials count='1'>
+		<m name='Material #26' type='Standardmaterial'>
+			<ambient>[149.94,149.94,149.94,255.0]</ambient>
+			<diffuse>[149.94,149.94,149.94,255.0]</diffuse>
+			<specular>[229.5,229.5,229.5,255.0]</specular>
+			<opacity>100.0</opacity>
+			<alphaBlendEnable>false</alphaBlendEnable>
+			<bitmap uvTiling='[1.0,1.0]' uvOffset='[0.0,0.0]'>goldbrick.jpg</bitmap>
+		</m>
+	</materials>
+	<meshes count='1' >
+		<mesh name='Triangle' layer='0' type='Original' matId='0' color='[177.0,88.0,26.0]' visibility='1.0' lightmap=''>
+			<boundingBox min='[-19.5918,-28.2586,-4.36133]' max='[32.5135,28.2586,6.55185]'/>
+			<coordinatesIdx count='3'>1 0 2 </coordinatesIdx>
+			<textCoordsIdx count='3'>6 4 7 </textCoordsIdx>
+			<colorsIdx count='3'>0 0 0 </colorsIdx>
+			<matIds count='1'>0</matIds>
+			<vertices count='9'>32.5135 28.2586 -4.36133 32.5135 -28.2586 -4.36132 -19.5918 -28.2586 6.55185 </vertices>
+			<normals count='9'>-0.204997 0.0 -0.978763 -0.204997 0.0 -0.978763 -0.204997 0.0 -0.978763 </normals>
+			<texCoords count='16'>0.0 1.0 1.0 1.0 0.0 1.0 1.0 1.0 0.0 1.0 1.0 1.0 0.0 0.0 1.0 0.0 </texCoords>
+			<colors count='3'>255 255 255 </colors>
+		</mesh>
+	</meshes>
+</tgcScene>
