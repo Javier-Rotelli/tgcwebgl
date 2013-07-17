@@ -459,7 +459,7 @@ TgcSceneLoader.prototype.crearMeshDiffuseMapLightmap = function(sceneData, media
 	indexBuffer = undefined;
 	
 	//Cargar lightMap
-    var lightMap = TgcTexture.createTexture(mediaUrl + sceneData.lightmapsDir + "\\" + meshData.lightmap, meshData.lightmap);
+    var lightMap = TgcTexture.createTexture(mediaUrl + sceneData.lightmapsDir + "/" + meshData.lightmap, meshData.lightmap);
 	
 	//Crear mesh de TGC
 	var tgcMesh = new TgcMesh(meshData.name, glVertexBufferId, glIndexBufferId, subGroupsVertexCount, TgcMesh.MeshRenderType.DIFFUSE_MAP_AND_LIGHTMAP);
